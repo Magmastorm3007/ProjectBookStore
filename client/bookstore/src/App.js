@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
      <Routes>
     
       <Route path="/" element={<><Navbar/><Homepage/></> } />
