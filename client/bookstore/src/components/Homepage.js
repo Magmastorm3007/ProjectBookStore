@@ -1,8 +1,15 @@
+import { Button } from '@mui/material'
 import React from 'react'
-
+import '../styles/homepage.css'
 function Homepage() {
-  return (
-    <div>Homepage</div>
+  function handlesub(){
+
+  }
+  return (<div>
+    Homepage
+    <Button onClick={handlesub} >Buy</Button> 
+    </div>
+
   )
 }
 

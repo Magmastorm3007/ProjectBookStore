@@ -8,7 +8,7 @@ app.use(cors())
 const url='mongodb+srv://user:aloo@cluster0.ybbgwrx.mongodb.net/?retryWrites=true&w=majority'
 const port=process.env.PORT ||6000
 mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology: true})
-.then(()=>app.listen(port,()=>console.log("HEHE")))
+.then(()=>app.listen(port,()=>console.log("Hello there")))
 .catch((err)=>console.log('error'))
 
 
