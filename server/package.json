@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "We will implement server side technologies here.git",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
